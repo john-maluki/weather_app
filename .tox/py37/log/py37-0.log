@@ -1,0 +1,10 @@
+action: py37, msg: getenv
+cwd: /home/maluki/project3/weather_app/.tox
+cmd: /home/maluki/project3/myenv/bin/python3 -m virtualenv --no-download --python /usr/bin/python3.7 py37
+Already using interpreter /usr/bin/python3.7
+Using base prefix '/usr'
+New python executable in /home/maluki/project3/weather_app/.tox/py37/bin/python3.7
+Also creating executable in /home/maluki/project3/weather_app/.tox/py37/bin/python
+Installing setuptools, pip, wheel...
+done.
+Running virtualenv with interpreter /usr/bin/python3.7

@@ -1,0 +1,51 @@
+action: py37, msg: getenv
+cwd: /home/maluki/project3/weather_app
+cmd: /home/maluki/project3/weather_app/.tox/py37/bin/python -m pip install -rrequirements.txt
+Collecting atomicwrites==1.3.0 (from -r requirements.txt (line 1))
+  Using cached https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+Collecting attrs==19.1.0 (from -r requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Collecting certifi==2019.6.16 (from -r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/69/1b/b853c7a9d4f6a6d00749e94eb6f3a041e342a885b87340b79c1ef73e3a78/certifi-2019.6.16-py2.py3-none-any.whl
+Collecting chardet==3.0.4 (from -r requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting coverage==4.5.3 (from -r requirements.txt (line 5))
+  Downloading https://files.pythonhosted.org/packages/b4/6a/8e2918c56682739cf177a7358929fed427d3982cc649e859b7a2d5c7daea/coverage-4.5.3-cp37-cp37m-manylinux1_x86_64.whl (204kB)
+Collecting Django==2.2.3 (from -r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/39/b0/2138c31bf13e17afc32277239da53e9dfcce27bac8cb68cf1c0123f1fdf5/Django-2.2.3-py3-none-any.whl
+Collecting idna==2.8 (from -r requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
+Collecting importlib-metadata==0.18 (from -r requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/bd/23/dce4879ec58acf3959580bfe769926ed8198727250c5e395e6785c764a02/importlib_metadata-0.18-py2.py3-none-any.whl
+Collecting more-itertools==7.1.0 (from -r requirements.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/1f/9e/942df77ddde2fae3f319f2ab8b5d00d5f6b115496e2eb4bad37d1aaefeea/more_itertools-7.1.0-py3-none-any.whl
+Collecting packaging==19.0 (from -r requirements.txt (line 10))
+  Using cached https://files.pythonhosted.org/packages/91/32/58bc30e646e55eab8b21abf89e353f59c0cc02c417e42929f4a9546e1b1d/packaging-19.0-py2.py3-none-any.whl
+Collecting pluggy==0.12.0 (from -r requirements.txt (line 11))
+  Using cached https://files.pythonhosted.org/packages/06/ee/de89e0582276e3551df3110088bf20844de2b0e7df2748406876cc78e021/pluggy-0.12.0-py2.py3-none-any.whl
+Collecting py==1.8.0 (from -r requirements.txt (line 12))
+  Using cached https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl
+Collecting pyparsing==2.4.0 (from -r requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pyparsing-2.4.0-py2.py3-none-any.whl
+Collecting pytest==5.0.0 (from -r requirements.txt (line 14))
+  Using cached https://files.pythonhosted.org/packages/4c/35/e13740d90c413fb5ec3c9b5243f79981f7bc759f4a12a959d8dadd57f971/pytest-5.0.0-py3-none-any.whl
+Collecting pytest-cov==2.7.1 (from -r requirements.txt (line 15))
+  Using cached https://files.pythonhosted.org/packages/84/7b/73f8522619d1cbb22b9a36f9c54bc5ce5e24648e53cc1bf566477d2d1f2b/pytest_cov-2.7.1-py2.py3-none-any.whl
+Collecting pytest-django==3.5.1 (from -r requirements.txt (line 16))
+  Using cached https://files.pythonhosted.org/packages/0f/02/1da366c7a382dbbaa6e5e156675159b9380f6dc875614669f39244ac9150/pytest_django-3.5.1-py2.py3-none-any.whl
+Collecting pytz==2019.1 (from -r requirements.txt (line 17))
+  Using cached https://files.pythonhosted.org/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl
+Collecting requests==2.22.0 (from -r requirements.txt (line 18))
+  Using cached https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl
+Collecting six==1.12.0 (from -r requirements.txt (line 19))
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting sqlparse==0.3.0 (from -r requirements.txt (line 20))
+  Using cached https://files.pythonhosted.org/packages/ef/53/900f7d2a54557c6a37886585a91336520e5539e3ae2423ff1102daf4f3a7/sqlparse-0.3.0-py2.py3-none-any.whl
+Collecting urllib3==1.25.3 (from -r requirements.txt (line 21))
+  Using cached https://files.pythonhosted.org/packages/e6/60/247f23a7121ae632d62811ba7f273d0e58972d75e58a94d329d51550a47d/urllib3-1.25.3-py2.py3-none-any.whl
+Collecting wcwidth==0.1.7 (from -r requirements.txt (line 22))
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting zipp==0.5.1 (from -r requirements.txt (line 23))
+  Using cached https://files.pythonhosted.org/packages/a0/0f/9bf71d438d2e9d5fd0e4569ea4d1a2b6f5a524c234c6d221b494298bb4d1/zipp-0.5.1-py2.py3-none-any.whl
+Installing collected packages: atomicwrites, attrs, certifi, chardet, coverage, pytz, sqlparse, Django, idna, zipp, importlib-metadata, more-itertools, six, pyparsing, packaging, pluggy, py, wcwidth, pytest, pytest-cov, pytest-django, urllib3, requests
+Successfully installed Django-2.2.3 atomicwrites-1.3.0 attrs-19.1.0 certifi-2019.6.16 chardet-3.0.4 coverage-4.5.3 idna-2.8 importlib-metadata-0.18 more-itertools-7.1.0 packaging-19.0 pluggy-0.12.0 py-1.8.0 pyparsing-2.4.0 pytest-5.0.0 pytest-cov-2.7.1 pytest-django-3.5.1 pytz-2019.1 requests-2.22.0 six-1.12.0 sqlparse-0.3.0 urllib3-1.25.3 wcwidth-0.1.7 zipp-0.5.1

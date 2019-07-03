@@ -1,0 +1,79 @@
+action: GLOB, msg: packaging
+cwd: /home/maluki/project3/weather_app
+cmd: /home/maluki/project3/myenv/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing weather_app.egg-info/PKG-INFO
+writing dependency_links to weather_app.egg-info/dependency_links.txt
+writing top-level names to weather_app.egg-info/top_level.txt
+reading manifest file 'weather_app.egg-info/SOURCES.txt'
+writing manifest file 'weather_app.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating weather_app-0.1
+creating weather_app-0.1/tests
+creating weather_app-0.1/weather
+creating weather_app-0.1/weather/migrations
+creating weather_app-0.1/weather_app
+creating weather_app-0.1/weather_app.egg-info
+copying files to weather_app-0.1...
+copying setup.py -> weather_app-0.1
+copying tests/__init__.py -> weather_app-0.1/tests
+copying tests/test_apps.py -> weather_app-0.1/tests
+copying tests/test_forms.py -> weather_app-0.1/tests
+copying tests/test_models.py -> weather_app-0.1/tests
+copying tests/test_urls.py -> weather_app-0.1/tests
+copying tests/test_views.py -> weather_app-0.1/tests
+copying weather/__init__.py -> weather_app-0.1/weather
+copying weather/admin.py -> weather_app-0.1/weather
+copying weather/apps.py -> weather_app-0.1/weather
+copying weather/forms.py -> weather_app-0.1/weather
+copying weather/models.py -> weather_app-0.1/weather
+copying weather/urls.py -> weather_app-0.1/weather
+copying weather/views.py -> weather_app-0.1/weather
+copying weather/migrations/0001_initial.py -> weather_app-0.1/weather/migrations
+copying weather/migrations/__init__.py -> weather_app-0.1/weather/migrations
+copying weather_app/__init__.py -> weather_app-0.1/weather_app
+copying weather_app/settings.py -> weather_app-0.1/weather_app
+copying weather_app/urls.py -> weather_app-0.1/weather_app
+copying weather_app/wsgi.py -> weather_app-0.1/weather_app
+copying weather_app.egg-info/PKG-INFO -> weather_app-0.1/weather_app.egg-info
+copying weather_app.egg-info/SOURCES.txt -> weather_app-0.1/weather_app.egg-info
+copying weather_app.egg-info/dependency_links.txt -> weather_app-0.1/weather_app.egg-info
+copying weather_app.egg-info/top_level.txt -> weather_app-0.1/weather_app.egg-info
+Writing weather_app-0.1/setup.cfg
+creating '.tox/dist/weather_app-0.1.zip' and adding 'weather_app-0.1' to it
+adding 'weather_app-0.1'
+adding 'weather_app-0.1/weather_app'
+adding 'weather_app-0.1/weather_app.egg-info'
+adding 'weather_app-0.1/weather'
+adding 'weather_app-0.1/tests'
+adding 'weather_app-0.1/setup.cfg'
+adding 'weather_app-0.1/setup.py'
+adding 'weather_app-0.1/PKG-INFO'
+adding 'weather_app-0.1/weather_app/urls.py'
+adding 'weather_app-0.1/weather_app/__init__.py'
+adding 'weather_app-0.1/weather_app/wsgi.py'
+adding 'weather_app-0.1/weather_app/settings.py'
+adding 'weather_app-0.1/weather_app.egg-info/PKG-INFO'
+adding 'weather_app-0.1/weather_app.egg-info/SOURCES.txt'
+adding 'weather_app-0.1/weather_app.egg-info/dependency_links.txt'
+adding 'weather_app-0.1/weather_app.egg-info/top_level.txt'
+adding 'weather_app-0.1/weather/migrations'
+adding 'weather_app-0.1/weather/urls.py'
+adding 'weather_app-0.1/weather/__init__.py'
+adding 'weather_app-0.1/weather/models.py'
+adding 'weather_app-0.1/weather/apps.py'
+adding 'weather_app-0.1/weather/admin.py'
+adding 'weather_app-0.1/weather/views.py'
+adding 'weather_app-0.1/weather/forms.py'
+adding 'weather_app-0.1/weather/migrations/0001_initial.py'
+adding 'weather_app-0.1/weather/migrations/__init__.py'
+adding 'weather_app-0.1/tests/test_models.py'
+adding 'weather_app-0.1/tests/test_apps.py'
+adding 'weather_app-0.1/tests/__init__.py'
+adding 'weather_app-0.1/tests/test_forms.py'
+adding 'weather_app-0.1/tests/test_views.py'
+adding 'weather_app-0.1/tests/test_urls.py'
+removing 'weather_app-0.1' (and everything under it)
