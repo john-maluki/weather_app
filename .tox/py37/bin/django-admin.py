@@ -1,4 +1,4 @@
-#!/home/maluki/project3/weather_app/.tox/py37/bin/python
+#!/home/maluki/project3/weather_app/.tox/py37/bin/python3.7
 from django.core import management
 
 if __name__ == "__main__":

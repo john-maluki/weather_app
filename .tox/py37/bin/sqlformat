@@ -1,4 +1,4 @@
-#!/home/maluki/project3/weather_app/.tox/py37/bin/python
+#!/home/maluki/project3/weather_app/.tox/py37/bin/python3.7
 # -*- coding: utf-8 -*-
 import re
 import sys
