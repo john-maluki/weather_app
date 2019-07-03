@@ -13,10 +13,11 @@ jobs:
             python3 -m venv myenv
             . myenv/bin/activate
             pip3 install -r requirements.txt
+            
   
       - run:
           name: run tests
           command: |
            . myenv/bin/activate
-           pytest
-           pytest --cov=weather 
+           tox
+            
