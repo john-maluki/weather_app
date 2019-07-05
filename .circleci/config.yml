@@ -19,6 +19,6 @@ jobs:
           name: run tests
           command: |
            . myenv/bin/activate
-           tox
+           tox -- --cov=weather
           
             

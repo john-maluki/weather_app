@@ -1,0 +1,14 @@
+action: py3.7, msg: installpkg
+cwd: /home/maluki/project3/weather_app
+cmd: /home/maluki/project3/weather_app/.tox/py3.7/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/weather_app-0.1.zip
+Processing ./.tox/.tmp/package/1/weather_app-0.1.zip
+Building wheels for collected packages: weather-app
+  Building wheel for weather-app (setup.py): started
+  Building wheel for weather-app (setup.py): finished with status 'done'
+  Stored in directory: /home/maluki/.cache/pip/wheels/6f/5b/96/abc4f4401dc0120fd6a9dcad60cf6025b5436b63d02a11f380
+Successfully built weather-app
+Installing collected packages: weather-app
+  Found existing installation: weather-app 0.1
+    Not uninstalling weather-app at /home/maluki/project3/weather_app, outside environment /home/maluki/project3/weather_app/.tox/py3.7
+    Can't uninstall 'weather-app'. No files were found to uninstall.
+Successfully installed weather-app-0.1
