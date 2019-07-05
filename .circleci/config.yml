@@ -12,13 +12,14 @@ jobs:
             sudo apt-get install python3-venv
             python3 -m venv myenv
             . myenv/bin/activate
-            pip3 install -r requirements.txt
+            pip3 install -r requir
+            ements.txt
             
   
       - run:
           name: run tests
           command: |
            . myenv/bin/activate
-           tox -- --cov=weather
+           tox -- -x --cov=weather
           
             
