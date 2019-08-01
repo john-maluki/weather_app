@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_city.egg-info/PKG-INFO
+django_city.egg-info/SOURCES.txt
+django_city.egg-info/dependency_links.txt
+django_city.egg-info/requires.txt
+django_city.egg-info/top_level.txt
+docs/info.txt
+weather_app/weather/templates/weather/weather.html

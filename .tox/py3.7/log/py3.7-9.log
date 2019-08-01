@@ -1,31 +1,50 @@
 action: py3.7, msg: envreport
-cwd: /home/maluki/project3/weather_app
-cmd: /home/maluki/project3/weather_app/.tox/py3.7/bin/python -m pip freeze
+cwd: /home/maluki/project3
+cmd: /home/maluki/project3/.tox/py3.7/bin/python -m pip freeze
+astroid==2.2.5
 atomicwrites==1.3.0
 attrs==19.1.0
+bleach==3.1.0
 certifi==2019.6.16
 chardet==3.0.4
 coverage==4.5.3
 Django==2.2.3
+django-city==0.1.0
+docutils==0.14
 filelock==3.0.12
 idna==2.8
 importlib-metadata==0.18
+isort==4.3.21
+lazy-object-proxy==1.4.1
+mccabe==0.6.1
+mock==3.0.5
+model-mommy==1.6.0
 more-itertools==7.1.0
 packaging==19.0
+pkginfo==1.5.0.1
 pluggy==0.12.0
 py==1.8.0
+Pygments==2.4.2
+pylint==2.3.1
 pyparsing==2.4.0
 pytest==5.0.0
 pytest-cov==2.7.1
 pytest-django==3.5.1
+pytest-mock==1.10.4
 pytz==2019.1
+readme-renderer==24.0
 requests==2.22.0
+requests-toolbelt==0.9.1
 six==1.12.0
 sqlparse==0.3.0
 toml==0.10.0
 tox==3.13.2
+tqdm==4.32.2
+twine==1.13.0
+typed-ast==1.4.0
 urllib3==1.25.3
 virtualenv==16.6.1
 wcwidth==0.1.7
-weather-app==0.1
+webencodings==0.5.1
+wrapt==1.11.2
 zipp==0.5.1

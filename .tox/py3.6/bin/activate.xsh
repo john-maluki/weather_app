@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/maluki/project3/weather_app/.tox/py3.6"
+$VIRTUAL_ENV = r"/home/maluki/project3/.tox/py3.6"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

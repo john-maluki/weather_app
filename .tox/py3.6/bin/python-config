@@ -1,4 +1,4 @@
-#!/home/maluki/project3/weather_app/.tox/py3.6/bin/python
+#!/home/maluki/project3/.tox/py3.6/bin/python
 
 import sys
 import getopt

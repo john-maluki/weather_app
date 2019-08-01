@@ -1,9 +1,0 @@
-action: py27, msg: getenv
-cwd: /home/maluki/project3/weather_app/.tox
-cmd: /home/maluki/project3/myenv/bin/python3 -m virtualenv --no-download --python /usr/bin/python2.7 py27
-Already using interpreter /usr/bin/python2.7
-New python executable in /home/maluki/project3/weather_app/.tox/py27/bin/python2.7
-Also creating executable in /home/maluki/project3/weather_app/.tox/py27/bin/python
-Installing setuptools, pip, wheel...
-done.
-Running virtualenv with interpreter /usr/bin/python2.7

@@ -1,0 +1,5 @@
+include LICENSE
+include README.rst
+recursive-include weather_app/weather/templates *
+recursive-include weather/ *.py
+recursive-include docs *
